@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: DINPro;
+    src:url(../fonts/DINPro.ttf);
+}
+@font-face {
+    font-family: DINPro-Bold;
+    src:url(../fonts/DINPro-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src:url(../fonts/Gilroy-Light.otf);
+}
+@font-face {
+    font-family: Gilroy-ExtraBold;
+    src:url(../fonts/Gilroy-ExtraBold.otf);
+}
+body {
+    font-family: DINPro;
+}
+header {
+    text-align: center;
+    height: 300px;
+}
+h1 {
+    font-family: DINPro;
+    font-size: 48px;
+    line-height: 54px;/* identical to box height */
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #222222;
+    margin-top: 165px;
+    margin-bottom: 0px;
+}
+header p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 24px;
+}
+header .thick {
+    color: #F47821;
+    font-weight: bold;
+}
+header img {
+    padding: 20px;
+    background-color: #878787;
+    border-radius: 25px;
+    position: absolute;
+    margin: -18px 0px 0px -45px;
+    z-index: -1;
+    
+}
+header a {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Gilroy-ExtraBold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    display: inline-block;
+    margin-top: 59px;
+}
+.banner {
+    background-image: url("../img/Rectangle.png");
+    height: 600px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+}
+.banner-grey {
+    background-color: #F7F5FA;
+    height: 445px;
+    text-align: center;
+    
+}
+.banner-grey-container {
+    
+    height: 100px;
+    width: 972px;
+    display: inline-block;
+    transform: translate(0px, -99px)
+}
+.left_top {
+    background-color: #FFFFFF;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-right:1px solid #EDEDED;
+    border-bottom:1px solid #EDEDED;
+    height: 232px;
+    
+}
+.right_top {
+    background-color: #FFFFFF;
+    float:right;
+    width: 50%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-bottom:1px solid #EDEDED;
+    height: 232px;
+}
+.left_bottom {
+    background-color: #FFFFFF;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-right: 1px solid #EDEDED;
+    height: 232px;
+}
+.right_bottom {
+    background-color: #FFFFFF;
+    float:right;
+    width: 50%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 232px;
+}
+.inner_content {
+    color: #F47821;
+    font-family: DINPro;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-left: 60px;
+    text-align: left;
+}
+.inner_paragraph {
+    font-family: DINPro;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #222222;
+    margin-bottom: 61px;
+    margin-left: 60px;
+    margin-right: 89px;
+    text-align: left;
+}
+.banner_similar {
+    height: 737px;
+    background-color: #ffffff;
+}
+.banner_similar h3 {
+    font-family: DINPro;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #222222;
+    margin-top: 80px;
+    margin-left: 334px;
+}
+.banner_similar p {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4E4D53;
+    margin-top: 24px;
+    margin-left: 334px;
+    max-width: 773px;
+}
+.banner_advantages {
+    height: 654px;
+    background-color: #F7F5FA;
+    text-align: center;
+}
+.padded {
+    margin-left: 135px;
+}
+.banner_advantages h4 {
+    font-family: DINPro;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    padding-top: 120px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.third {
+    display: inline-block;
+    margin-top: 60px;
+    width: 23%;
+    text-align: left;
+    margin-right: 65px;
+}
+.third h5 {
+    font-family: DINPro;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.third p {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 26px;
+    color:#4E4D53;
+    margin-top: 20px;
+}
+footer {
+    height: 1130px;
+    background-color: #161616;
+}
+footer h6 {
+    font-family: DINPro;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+form {
+    text-align: left;
+    margin-left: 341px;
+}
+.number {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 17px 25px 17px 25px;
+    border-radius: 50%;
+    font-family: Roboto;
+    line-height: 23px;
+    color: #F47821;
+    display: inline-block;
+    margin-top: 50px;
+}
+.input_text {
+    color: #ffffff;
+    font-family: DINPro-Bold;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+input[type=text],input[type=email],input[type=tel], textarea {
+    border:none;
+    border-bottom: 2px solid #F7F8FA;
+    width: 60%;
+    background-color: #161616;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing:-0.01em;
+    box-sizing: border-box;
+    opacity: 0.3;
+    padding: 20px 0px 20px 0px;
+    margin: 0px 0px 0px 100px;
+}
+input::placeholder, textarea {
+    color: #ffffff;
+    
+}
+input[type=submit] {
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 574px;
+    height: 54px;
+    color: #F47821;
+    font-family: Gilroy-ExtraBold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 111px;
+}
